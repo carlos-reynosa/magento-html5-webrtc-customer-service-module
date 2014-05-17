@@ -1,0 +1,11 @@
+<div class="input-group" style="width:400px">
+
+<!--A text box that allows a user to enter a message to send to a remote person -->
+<input   type="text" placeholder="How can we help you?" class="form-control" ng-model="postMessageText" id="textCommunicationMessageInputBox"/>
+<!-- A text box that when pressed, sends the message within the text box to the remote person -->
+<span class="input-group-btn">
+
+<button class="btn btn-default"  ng-click="sendPostMessage()" id="textCommunicationMessageSend">  <span class="glyphicon glyphicon-comment"></span></button>
+
+</span>
+</div>

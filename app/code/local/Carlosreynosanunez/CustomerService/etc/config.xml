@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<config>
+    <default>
+
+
+        <customerservice_options>
+           <api_configuration>
+              <service_id>magento-customerservice</service_id>
+               <api_secret>7IwIJoepeOQRpnsita7ZV6DNy0LWhVpjp1R_qcL_ahY</api_secret>
+           </api_configuration>
+        </customerservice_options>
+
+
+    </default>
+    <modules>
+        <Carlosreynosanunez_CustomerService>
+            <version>0.1.0</version>
+        </Carlosreynosanunez_CustomerService>
+    </modules>
+    <global>
+        <models>
+            <carlosreynosanunez_customerservice>
+                <class>Carlosreynosanunez_CustomerService_Model</class>
+                <resourceModel>carlosreynosanunez_customerservice_resource</resourceModel>
+            </carlosreynosanunez_customerservice>
+            <carlosreynosanunez_customerservice_resource>
+                <class>Carlosreynosanunez_CustomerService_Model_Resource</class>
+            </carlosreynosanunez_customerservice_resource>
+        </models>
+        <blocks>
+            <carlosreynosanunez_customerservice>
+                <class>Carlosreynosanunez_CustomerService_Block</class>
+            </carlosreynosanunez_customerservice>
+        </blocks>
+        <helpers>
+            <carlosreynosanunez_customerservice>
+                <class>Carlosreynosanunez_CustomerService_Helper</class>
+            </carlosreynosanunez_customerservice>
+        </helpers>
+        <resources>
+            <carlosreynosanunez_customerservice_setup>
+                <setup>
+                    <module>Carlosreynosanunez_CustomerService</module>
+
+                </setup>
+            </carlosreynosanunez_customerservice_setup>
+        </resources>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+
+                <carlosreynosanunez_customerservice_video module="Carlosreynosanunez_CustomerService">
+
+                    <file>carlosreynosanunez_customerservice.xml</file>
+
+                </carlosreynosanunez_customerservice_video>
+            </updates>
+        </layout>
+    </frontend>
+
+    <admin>
+        <routers>
+            <!-- using admin frontname since many console functions dend on it -->
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Carlosreynosanunez_CustomerService after="Mage_Adminhtml">Carlosreynosanunez_CustomerService</Carlosreynosanunez_CustomerService>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <carlosreynosanunez_customerservice_admin module="Carlosreynosanunez_CustomerService">
+                    <file>carlosreynosanunez_customerservice_admin.xml</file>
+                </carlosreynosanunez_customerservice_admin>
+            </updates>
+        </layout>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <customerservice_options>
+                                            <title>Alter Customer Service Options</title>
+                                        </customerservice_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

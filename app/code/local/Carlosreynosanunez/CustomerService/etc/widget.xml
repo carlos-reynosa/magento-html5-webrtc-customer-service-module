@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<widgets>
+    <customerservice_video type="carlosreynosanunez_customerservice/CustomerService" >
+        <name>Customer Service: Video, Audio, and Text Communication</name>
+        <description type="desc">This widget inserts a WebRTC module into the page that allows the user to communicate
+           with administrative personnel via view video/audio, audio, or text</description>
+        <parameters>
+           <features_visible>
+              <required>1</required>
+               <visible>1</visible>
+               <label>Features Visible</label>
+               <type>select</type>
+               <values>
+                   <video>
+                       <value>video</value>
+                       <label>Video Communication</label>
+                   </video>
+                   <audio>
+                       <value>audio</value>
+                       <label>Audio Communication</label>
+                   </audio>
+                   <text>
+                       <value>text</value>
+                       <label>Text Message Communication</label>
+                   </text>
+
+                   <video_audio_text>
+                      <value>video,audio,text</value>
+                       <label>All Customer Service Features</label>
+                   </video_audio_text>
+               </values>
+           </features_visible>
+        </parameters>
+    </customerservice_video>
+
+</widgets>

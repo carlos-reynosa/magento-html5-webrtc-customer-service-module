@@ -1,0 +1,16 @@
+<config>
+    <menu>
+        <carlosreynosanunez >
+            <title>Carlos Reynosa</title>
+            <sort_order>1</sort_order>
+            <children>
+                <customerservice>
+                    <title>Customer Service</title>
+                    <sort_order>1</sort_order>
+                    <action>adminhtml/customerserviceadmin/index</action>
+                </customerservice>
+            </children>
+        </carlosreynosanunez>
+    </menu>
+
+</config>

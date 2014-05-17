@@ -1,0 +1,11 @@
+{
+  "name": "Magento Customer Service Module",
+  "version": "0.0.0",
+  "homepage": "https://github.com/carlos-reynosa/HTML5-Customer-Service-Magento-Module",
+  "authors": [
+    "Carlos Reynosa <raveash@gmail.com>"
+  ],
+  "description": "HTML5 Magento Customer Service module",
+  "license": "MIT",
+  "private": true
+}

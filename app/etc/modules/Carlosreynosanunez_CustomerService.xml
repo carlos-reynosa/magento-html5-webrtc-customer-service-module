@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Carlosreynosanunez_CustomerService>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Cms/>
+
+            </depends>
+        </Carlosreynosanunez_CustomerService>
+    </modules>
+</config>

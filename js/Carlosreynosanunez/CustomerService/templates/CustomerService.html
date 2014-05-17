@@ -1,0 +1,16 @@
+<div ng-repeat="featureType in featuresVisible">
+
+    <div data-customer-service-feature type="{{ featureType }}"></div>
+
+</div>
+<br>
+<button ng-click="login()" class="btn btn-default btn-xs">Login</button>
+<button ng-click="connectAction()" class="btn btn-default btn-xs">Connect</button>
+<button ng-click="stopMediaOnCurrentPerson()" class="btn btn-default btn-xs">
+    <span class="glyphicon glyphicon-minus-sign"></span> Disconnect
+</button>
+<button ng-click="clientLogout()" class="btn btn-default btn-xs">Client Logout</button>
+<br>
+
+<div data-client-login-status></div>
+<div data-client-connection-state></div>

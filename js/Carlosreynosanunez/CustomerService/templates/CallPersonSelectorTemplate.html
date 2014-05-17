@@ -1,0 +1,20 @@
+<div class="panel panel-default" style="width: 230px;min-height: 201px;">
+
+    <div class="panel-heading">Incoming Connections <span class="badge">{{ personList.length }}</span></div>
+    <div class="panel-body" style="padding:0px;">
+
+        <style>
+
+
+            [data-remote-person].current-person-true {
+                background-color: #ea7601;
+            }
+
+            [data-remote-person]:hover {
+                background-color: #ea7601;
+            }
+        </style>
+        <div data-remote-person-connection-list></div>
+    </div>
+</div>
+

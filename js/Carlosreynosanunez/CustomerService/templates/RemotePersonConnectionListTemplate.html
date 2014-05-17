@@ -1,0 +1,6 @@
+<ul class="list-group" style="margin-bottom:0px;">
+    <li data-remote-person person-id="{{ person.personId }}" display-name="{{ person.displayName }}"
+        media-state="{{ person.mediaState }}" ng-click="setAsCurrentRemotePerson(person.personId)"
+        ng-repeat="person in personList" class="clearfix list-group-item current-person-{{ person.isCurrentPerson }}">
+    </li>
+</ul>

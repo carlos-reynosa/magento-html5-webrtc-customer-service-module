@@ -1,0 +1,9 @@
+app/code/local/Carlosreynosanunez/CustomerService app/code/local/Carlosreynosanunez/CustomerService
+app/etc/modules/Carlosreynosanunez_CustomerService.xml app/etc/modules/Carlosreynosanunez_CustomerService.xml
+app/design/adminhtml/default/default/layout/carlosreynosanunez_customerservice_admin.xml app/design/adminhtml/default/default/layout/carlosreynosanunez_customerservice_admin.xml
+app/design/frontend/default/default/layout/carlosreynosanunez_customerservice.xml  app/design/frontend/default/default/layout/carlosreynosanunez_customerservice.xml
+
+js/Carlosreynosanunez/CustomerService  js/Carlosreynosanunez/CustomerService
+
+lib/Carlosreynosanunez lib/Carlosreynosanunez
+

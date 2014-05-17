@@ -1,0 +1,14 @@
+<video  class="pull-left" style="max-width:400px;width:400px;" src="{{ remoteVideoStreamSource }}"  autoplay></video>
+
+
+<!-- Displays the current media session state of the current remote person -->
+<div ng-switch="appView">
+
+    <div ng-switch-when="frontend">
+
+<div data-media-session-state stream-type="video"></div>
+
+    </div>
+
+
+</div>

@@ -1,0 +1,6 @@
+# IDE junk
+.settings
+.project
+
+# NodeJS
+node_modules

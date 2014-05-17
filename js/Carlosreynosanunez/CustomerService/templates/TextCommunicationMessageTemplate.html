@@ -1,0 +1,16 @@
+
+<div class="media" >
+    <div ng-switch="isMessageFromLocal">
+        <div ng-switch-when="true">
+            <div class="pull-left">
+                <div class="pull-left" style="font-weight:bold;padding-right:10px;"  >{{ messageSenderDisplayText }}  :  </div><div class="media-body"><div >{{ messageBody }}</div></div>
+            </div>
+        </div>
+        <div ng-switch-when="false">
+             <div class="pull-right">
+                 <div class="media-body pull-left"><div >{{ messageBody }}</div></div>
+                 <div class="pull-right" style="font-weight:bold;padding-left:10px;">:{{ messageSenderDisplayText }}</div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+{
+  "name": "vline",
+  "_cacheHeaders": {
+    "Last-Modified": "Mon, 06 Jan 2014 15:20:07 GMT",
+    "Content-Length": "399247",
+    "Content-Type": "application/x-javascript"
+  },
+  "main": "index.js",
+  "_source": "https://static.vline.com/vline.js",
+  "_target": "*",
+  "_originalSource": "https://static.vline.com/vline.js",
+  "_direct": true
+}

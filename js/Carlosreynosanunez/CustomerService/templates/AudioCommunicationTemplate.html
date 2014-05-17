@@ -1,0 +1,14 @@
+<audio style="width:400px;" ng-controller="AudioCommunicationController" src="{{ remoteAudioStreamSource }}" autoplay
+       controls></audio>
+
+
+<div ng-switch="appView">
+
+    <div ng-switch-when="frontend">
+
+        <div data-media-session-state stream-type="audio"></div>
+
+    </div>
+
+
+</div>

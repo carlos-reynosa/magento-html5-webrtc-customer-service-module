@@ -1,0 +1,7 @@
+<div class="media" ng-repeat="messageListItem in messageList">
+    <!-- Can't pass entire message object due to circular reference within the object -->
+   <div   data-text-communication-message sender-message-display-text="{{ messageListItem.senderDisplayName  }}" sender-id="{{ messageListItem.senderId }}" message-body="{{ messageListItem.messageBody }}">
+  </div>
+
+</div>
+

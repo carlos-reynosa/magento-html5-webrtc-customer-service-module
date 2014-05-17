@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+
+    <default>
+
+        <reference name="head">
+            <!-- Add requireJS-->
+            <action method="addJs">
+                <script>Carlosreynosanunez/CustomerService/bower_components/requirejs/require.js</script>
+                <!-- Tell requirejs to find the config within main.js -->
+                <params><![CDATA[data-main="/js/Carlosreynosanunez/CustomerService/main.js"]]></params>
+            </action>
+            <action method="addItem"><type>js_css</type> <name>Carlosreynosanunez/CustomerService/css/bootstrap-3.1.1/dist/css/bootstrap.min.css</name></action>
+        </reference>
+
+        <reference name="content">
+
+            <block type="Carlosreynosanunez_CustomerService/CustomerService" name="CustomerServiceHtmlElement" ></block>
+        </reference>
+    </default>
+</layout>
