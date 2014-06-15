@@ -29,3 +29,9 @@ The project was designed and implemented with the following objectives:
 ![Customer Service Module Admin Configuration](https://googledrive.com/host/0BzeRIFydrcV6THNBR0JiLUlXY1k/module-config.png)
 
 The image illustrates the module configuration form. The form contains text boxes for entering an API Secret, Service ID, and Person ID (User ID). These values must be configured in order for the Developer to have installed the module properly.
+
+##Widget Installation
+
+![Customer Service Module Magento Widget Installation] (https://googledrive.com/host/0BzeRIFydrcV6THNBR0JiLUlXY1k/install-widget.png)
+
+The image illustrates the Magento widget configuration page. The page contains two sections. The first section allows users to decide what widget they would like to insert into a CMS page. For this project the user will select the widget type ‘Customer Service: Video, Audio, and Text Communication’. Once the widget type has been selected the second section appears asking the Developer to choose what features of the application they would like to have visible to Customers.
