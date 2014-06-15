@@ -53,3 +53,9 @@ The image illustrates the Magento widget configuration page. The page contains t
 ![Customer Service Module Admin Features] (https://googledrive.com/host/0BzeRIFydrcV6SHJoblFyT3JhYXM/admin-features)
 
 The image highlights the person selector widget visible only to the Customer Service Representative. The widget allows Customer Service Representatives to choose from multiple incoming Customer connections. The person selector widget displays all incoming calls from Customers. In order to accept a call from an incoming Customer, the Customer Service Representative must first select a Customer from the person selector widget. Once a person is selected, initiating a connection will accept that selected incoming call.
+
+#Fully Connected Example
+
+![Customer Service Module example of a fully connected application instance] (https://googledrive.com/host/0BzeRIFydrcV6akxHRF9TX1hjdDA/customer-features)
+
+The image illustrates a fully connected Customer Service Application instance with audio, video, and text communication available. It also highlights the areas of active streaming audio and video data.
