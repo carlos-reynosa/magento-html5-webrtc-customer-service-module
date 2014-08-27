@@ -9,7 +9,7 @@ The project was designed and implemented with the following objectives:
 * Design and implement a complete solution for a modern e-commerce framework.
 
     * Provide module administration configuration
-    * Provide provide easy installation of features
+    * Provide easy installation of features
     * Documentation and analysis of requirements and architectural solution
 
 * Utilize modern front-end web application technologies and tools.
